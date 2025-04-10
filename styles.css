@@ -1,0 +1,2110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.main {
+    margin: 0 auto;
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/back_web_A.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    font-family: "Poppins" serif;
+    display: grid;
+    grid-template-rows: 10% 90%;
+}
+
+.element {
+    line-height: 1.2;
+}
+
+.hero {
+    min-height: 450px;
+    text-align: center;
+}
+
+#large {
+    font-size: clamp(1em, 10vw, 7em);
+    font-weight: bold;
+    color: #ebe7e7;
+    letter-spacing: 14px;
+    word-spacing: 7px;
+    line-height: .9;
+    margin-top: 6rem;
+    height: 2rem;
+}
+
+.secondary {
+    display: flex;
+    margin-top: 10rem;
+    float: right;
+}
+
+.logo-caro {
+    width: 35%;
+    margin-right: 30px;
+    margin-top: -25px;
+}
+
+.small-text {
+    font-size: clamp(0.1em, 100%, 0.8em);
+    color: #ebe7e7;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-right: 135px;
+}
+
+.services-about {
+    margin: 0 auto;
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/back_web_B.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    font-family: "Poppins", serif;
+    display: grid;
+    grid-template-rows: 30% 35% 35%;
+    color: #ebe7e7;
+}
+
+.element {
+    line-height: 1.2;
+}
+
+#services-about-1 {
+    display: flex;
+}
+
+.txt-1 {
+    margin: 0px 50px;
+    margin-left: 1em;
+    font-size: 2.5em;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 3px;
+    margin-top: .9em;
+}
+
+.txt-2 {
+    font-weight: 100;
+    font-style: normal;
+    font-size: 20px;
+    word-spacing: 2px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+}
+
+#specialties {
+    display: flex;
+}
+
+.txt-3 {
+    font-size: 2.5em;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 4px;
+    word-spacing: 3px;
+    display: flex;
+    flex: 1;
+    margin-left: 230px;
+    margin-right: 50px;
+}
+
+.service-1 {
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: 0;
+    margin-left: 1em;
+    margin-right: 1.5em;
+    display: flex;
+    flex: 1;
+    position: relative;
+}
+
+.service-1 img {
+    position: absolute;
+    
+}
+
+.service-1 h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0;
+    position: absolute;
+    margin-top: 50px;
+}
+
+.service-1 p {
+    margin-top: 70px;
+}
+
+.service-2 {
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: 0;
+    display: flex;
+    flex: 1;
+    position: relative;
+    margin-right: 30px;
+}
+
+.service-2 img {
+    position: absolute;
+}
+
+.service-2 h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0;
+    position: absolute;
+    margin-top: 50px;
+}
+
+.service-2 p {
+    margin-top: 70px;
+}
+
+#specialties-2 {
+    display: flex;
+}
+
+.service-3 {
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: 10px;
+    display: flex;
+    flex: 1;
+    position: relative;
+    margin-left: 655px;
+}
+
+.service-3 img {
+    position: absolute;
+}
+
+.service-3 h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0;
+    position: absolute;
+    margin-top: 50px;
+}
+
+.service-3 p {
+    margin-top: 70px;
+}
+
+.service-4 {
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: 10px;
+    display: flex;
+    flex: 1;
+    position: relative;
+}
+
+.service-4 img {
+    position: absolute;
+
+}
+
+.service-4 h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0;
+    position: absolute;
+    margin-top: 50px;
+}
+
+.service-4 p {
+    margin-top: 70px;
+}
+
+.cases {
+    box-sizing: border-box;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/back_web_C.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    font-family: 'Poppins', serif;    
+}
+
+
+
+
+.slider-wrapper {
+    position: relative;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.slider-wrapper h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#ebe7e7;
+    font-size: 2.5em;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: -20px;
+}
+
+
+
+.slider {
+    display: flex;
+    aspect-ratio: 16 / 9;
+    overflow-x: hidden;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+}
+
+
+.slider img {
+    flex: 1 0 100%;
+    scroll-snap-align: start;
+    object-fit: cover;
+}
+
+.slider-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -10px;
+    
+}
+
+.slider-nav li {
+    vertical-align: top;
+    display: inline;
+    font-size: 15px;
+    padding: 0.5em;
+    
+}
+
+
+.contact {
+
+    box-sizing: border-box;    
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/back_web_A.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    font-family: "Poppins", serif;
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    
+}
+
+.form-content {
+    background: linear-gradient(
+        50deg,
+
+    );
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    width: 70%;
+    max-width: 1000px;
+    border-radius: 25px;
+    font-family: "Poppins", serif;
+    margin-left: 60px;
+    
+}
+
+.form-content h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #ebe7e7;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+label {
+    font-size: 17px;
+    margin-bottom: 5px;
+    color: #ebe7e7;
+}
+
+input, textarea {
+    padding: 17px 14px;
+    border: 0;
+    font-size: 15px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+
+:focus {
+    outline: 1px solid blue;
+}
+
+.btn {
+    background-color: blue;
+    width: 150px;
+    align-self: flex-end;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: cornflowerblue;
+}
+
+.gotopbtn {
+    position: fixed;
+    width: 60px;
+    height: 70px;    
+    bottom: 50px;
+    right: 20px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    
+}
+
+.gotopbtn img {
+    width: 30px;
+    
+}
+
+.footer {
+    margin: 0;
+    width: 100%;    
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.footer p {
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ebe7e7;
+    font-size: clamp(0.7rem, 2vw, 1rem);
+}
+
+/* Aqui empiezan las medias queries */
+
+ 
+@media (max-width: 810px) {
+
+    .nav-link {
+        width: 70px;
+        }
+
+    #large {
+        width: 100%;
+        margin-top: 300px;
+        font-size: 85px;
+    }
+
+    .secondary {
+        margin-top: 100px;
+    }
+
+    .logo-caro {
+        width: 40%;
+        margin-left: 235px;
+        margin-top: -15px;
+        
+    }
+
+    .small-text {
+        width: 30%;
+        margin: 0;
+        font-size: 10px;
+        margin-top: 20px;
+        margin-right: 70px;
+    }
+
+    .services-about {
+        display: grid;
+        grid-template-rows: 25% 37.5% 37.5%;
+    }
+        
+    
+
+    .txt-2 {
+        margin-left: -190px;
+        margin-top: 40px;
+
+    }
+
+    .txt-3 {
+        margin-left: 40px;
+    }
+
+
+.service-1 {
+    margin-top: 120px;
+    margin-left: -405px;
+}
+
+.service-2 {
+    margin-top: 120px;
+    margin-right: 30px;
+}
+
+.service-3 {
+    margin-left: 40px;
+}
+
+.slider-wrapper h2 {
+        
+    margin-bottom: 20px;
+}
+
+.slider-nav {
+    margin-top: 20px;
+}
+
+.slider-nav li {
+    font-size: 14px;
+}
+
+.contact {
+    display: grid;
+    grid-template-rows: 93% 7%;
+}
+
+.form-content h2 {
+    font-size: 36px;
+}
+
+}
+
+        
+        
+    
+
+
+@media (max-width: 800px) {
+    #large {
+        width: 100%;
+        margin-top: 400px;
+    }
+
+    .secondary {
+        margin-top: 100px;
+    }
+
+    .logo-caro {
+        width: 35%;
+        margin-left: 270px;
+        
+    }
+
+    .small-text {
+        width: 30%;
+        margin: 0;
+        font-size: 10px;
+        margin-top: 20px;
+        margin-right: 70px;
+        
+        
+    }
+}
+
+@media (max-width: 428px) {
+
+    .nav-link {
+        width: 70px;
+    }
+   
+    #large {
+        width: 100%;
+        margin-top: 100px;
+        line-height: .9;
+        font-size: 60px;
+        letter-spacing: 2px;
+        word-spacing: 2px;
+        
+    }
+
+    .secondary {
+        margin-top: 120px;
+        height: 300px;
+        display: block;
+        
+    }
+
+    .logo-caro {
+        width: 60%;
+        margin-left: 0;
+        margin-top: 0;
+        
+        
+        
+        
+    }
+
+    .small-text {
+        width: 100%;
+        font-size: 15px;
+        margin-top: 0;
+    }
+
+    .services-about {
+        display: grid;
+        grid-template-rows: 25% 37.5% 37.5%;
+    }
+
+    
+        
+    
+
+    .txt-1 {
+        font-size: 30px;
+        margin-left: 20px;
+        
+        
+    }
+
+    .txt-2 {
+        font-size: 14px;
+        line-height: 1.2;
+        margin-left: -160px;
+        margin-top: 30px;
+    }
+
+    #specialties {
+        display: block;
+        
+    }
+
+    .txt-3 {
+        font-size: 30px;
+        margin-left: 20px;
+        
+    }
+
+    .service-1 {
+        font-size: 14px;
+        margin-left: 20px;
+        margin-top: 50px;
+        
+    }
+
+    .service-1 img {
+        position: relative;
+        margin-left: 230px;
+        margin-top: 5px;
+        
+    }
+        
+        
+    
+
+    .service-1 h3 {
+        font-size: 14px;
+        margin-top: 10px;
+    }
+
+    .service-1 p {
+        position: absolute;
+        margin-top: 30px;
+    }
+
+    .service-2 {
+        font-size: 14px;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+
+    .service-2 img {
+        position: relative;
+        margin-left: 230px;
+        margin-top: 90px;
+
+    }
+
+    .service-2 h3 {
+        font-size: 14px;
+        margin-top: 90px;
+    }
+
+    .service-2 p {
+        position: absolute;
+        margin-top: 110px;
+    }
+
+    
+
+    #specialties-2 {
+        display: block;
+    }
+
+    .service-3 {
+        font-size: 14px;
+        margin-left: 20px;
+    }
+
+    .service-3 img {
+        position: relative;
+        margin-left: 230px;
+        margin-top: 10px;
+    }
+
+    .service-3 h3 {
+        font-size: 14px;
+        margin-top: 10px;
+    }
+
+    .service-3 p {
+        position: absolute;
+        margin-top: 30px;
+    }
+
+    .service-4 {
+        font-size: 14px;
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+
+    .service-4 img {
+        position: relative;
+        margin-left: 230px;
+        margin-top: 40px;
+    }
+
+    .service-4 h3 {
+        font-size: 14px;
+        margin-top: 50px;
+    }
+
+    .service-4 p {
+        position: absolute;
+        margin-top: 70px;
+    }
+
+    .slider-nav {
+        margin-left: -10px;
+
+    }
+
+    .slider-nav li {
+        font-size: 13px;
+    }
+
+    .contact {
+        display: grid;
+        
+        grid-template-rows: 93% 7%;
+    }
+
+    .form-content {
+        margin-left: 40px;
+    }
+
+    .form-content h2 {
+        font-size: 34px;
+        margin-left: 0;
+    }
+
+    label {
+        font-size: 15px;
+    }
+
+    .footer {   
+        width: 90%;
+    }
+}
+      
+                                      
+            
+@media (max-width: 414px) {
+    #large {
+        width: 100%;
+        margin-top: 100px;
+        line-height: .9;
+        font-size: 60px;
+        letter-spacing: 2px;
+        word-spacing: 2px;
+        
+        
+    }
+
+    .secondary {
+        margin-top: 120px;
+    }
+
+    .logo-caro {
+        width: 60%;
+        margin-left: 22px;
+        margin-top: 0;
+    }
+
+    .small-text {
+        width: 100%;
+        margin: 0;
+        font-size: 14px;
+        margin-right: 35px;
+        margin-top: 0;
+    }
+
+    .service-3 {
+        margin-top: 30px;
+    }
+
+    .service-4 {
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 412px) {
+    #large {
+        width: 100%;
+        margin-top: 100px;
+        line-height: .9;
+        font-size: 60px;
+        letter-spacing: 2px;
+        word-spacing: 2px;
+    }
+
+    .secondary {
+        margin-top: 120px;
+    }
+
+    .logo-caro {
+        width: 60%;
+        margin-left: 22px;
+        margin-top: 0;
+
+    }
+
+    .small-text {
+        width: 100%;
+        margin: 0;
+        font-size: 14px;
+        margin-right: 35px;
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 390px) {
+    #large {
+        width: 100%;
+        margin-top: 110px;
+        line-height: .9;
+        font-size: 60px;
+        letter-spacing: 2px;
+        word-spacing: 2px;
+    }
+
+    .secondary {
+        margin-top: 120px;
+    }
+
+    .logo-caro {
+        width: 60%;
+        margin-left: 22px;
+        margin-top: 0;
+    }
+
+    .small-text {
+        width: 100%;
+        margin: 0;
+        font-size: 12px;
+        margin-right: 35px;
+        margin-top: 0;
+    }
+
+    .services-about {
+        display: grid;
+        grid-template-rows: 20% 40% 40%;
+    }
+
+    .txt-1 {
+        font-size: 28px;
+    }
+
+    .txt-2 {
+        font-size: 13px;
+        margin-left: -155px;
+        margin-top: 50px;
+    }
+
+    .txt-3 {
+        font-size: 28px;
+    }
+
+    .service-1 {
+        font-size: 13px;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+
+    .service-1 h3 {
+        font-size: 14px;
+    }
+
+    .service-2 {
+        font-size: 13px;
+    }
+
+    .service-2 h3 {
+        font-size: 14px;
+        
+    }
+
+    .service-3 {
+        font-size: 13px;
+        margin-top: 0;
+    }
+
+    .service-3 h3 {
+        font-size: 14px;
+    }
+
+    .service-4 {
+        font-size: 13px;
+    }
+
+    .service-4 h3 {
+        font-size: 12px;
+    }
+
+    .slider-wrapper h2 {
+        font-size: 26px;
+    }
+    .slider-nav li {
+        font-size: 12px;
+    }
+
+    .form-content h2 {
+        font-size: 30px;
+    }
+
+    .footer {
+        max-width: 84%;
+    }
+
+}
+
+@media (max-width: 384px) {
+    #large {
+        width: 100%;
+        margin-top: 110px;
+        line-height: .9;
+        font-size: 60px;
+        letter-spacing: 2px;
+        word-spacing: 2px;
+    }
+
+    .secondary {
+        margin-top: 120px;
+    }
+
+    .logo-caro {
+        width: 60%;
+        margin-left: 22px;
+        margin-top: 0;
+    }
+
+    .small-text {
+        width: 100%;
+        margin: 0;
+        font-size: 12px;
+        margin-right: 35px;
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 375px) {
+    #large {
+        width: 100%;
+        margin-top: 110px;
+        line-height: .9;
+        font-size: 60px;
+        letter-spacing: 2px;
+        word-spacing: 2px;
+    }
+
+    .secondary {
+        margin-top: 120px;
+    }
+
+    .logo-caro {
+        width: 60%;
+        margin-left: 22px;
+        margin-top: 0;
+    }
+
+    .small-text {
+        width: 100%;
+        margin: 0;
+        font-size: 12px;
+        margin-right: 35px;
+        margin-top: 0;
+    }
+    
+    .txt-1 {
+        font-size: 26px;
+    }
+
+    .txt-2 {
+        font-size: 12px;
+        margin-left: -145px;
+    }
+
+    .txt-3 {
+        font-size: 26px;
+    }
+
+    .service-1 h3 {
+        font-size: 12px;
+    }
+
+    .service-2 {
+        font-size: 12px;
+    }
+
+    .service-2 h3 {
+        font-size: 12px;
+        
+    }
+
+    .service-3 {
+        font-size: 12px;
+        margin-top: 0;
+    }
+
+    .service-3 h3 {
+        font-size: 12px;
+    }
+
+    .service-4 {
+        font-size: 12px;
+    }
+
+    .service-4 h3 {
+        font-size: 11px;
+    }
+
+    .slider-nav li {
+        font-size: 10px;
+    }
+
+    .footer {
+        width: 80%;
+    }
+
+    .footer img {
+        width: 45px;
+    }
+
+}
+
+@media (max-width: 360px) {
+    #large {
+        width: 100%;
+        margin-top: 120px;
+        line-height: .9;
+        font-size: 55px;
+        letter-spacing: 2px;
+        word-spacing: 2px;
+    }
+
+    .secondary {
+        margin-top: 120px;
+    }
+
+    .logo-caro {
+        width: 55%;
+        margin-left: 22px;
+        margin-top: 0;
+    }
+
+    .small-text {
+        width: 100%;
+        margin: 0;
+        font-size: 12px;
+        margin-right: 35px;
+        margin-top: 30px;
+    }
+
+    .txt-1 {
+        font-size: 24px;
+    }
+
+    .txt-2 {
+        font-size: 12px;
+        margin-left: -140px;
+        
+    }
+       
+    
+    .txt-3 {
+        font-size: 24px;
+    }
+
+    .service-1 {
+        font-size: 12px;
+        margin-left: 20px;
+    }
+
+    .service-1 h3 {
+        font-size: 12px;
+    }
+
+    .service-2 {
+        font-size: 12px;
+    }
+
+    .service-2 h3 {
+        font-size: 12px;
+    }
+
+    .service-3 {
+        font-size: 12px;
+        margin-left: 20px;
+    }
+
+    .service-3 h3 {
+        font-size: 12px;
+    }
+
+    .service-4 {
+        font-size: 12px;
+    }
+
+    .service-4 h3 {
+        font-size: 11px;
+    }
+
+    .form-content {
+        margin-left: 20px;
+    }
+
+    .footer {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 758px) {
+    .btn {
+        width: 80px;
+    }
+}
+
+@media (max-width: 1280px) and (orientation: landscape) {
+
+    .logo-caro {
+        margin-left: 110px;
+    }
+
+    .txt-2 {
+        margin-bottom: 40px;
+    }
+
+    .service-4 h3 {
+        font-size: 19px;
+    }
+
+    .contact {
+        display: grid;        
+        grid-template-rows: 92% 8%;
+    }
+
+    .footer {
+        max-width: 100%;
+    }
+}
+
+  
+
+@media (max-width: 1080px) and (orientation: landscape) {
+
+    #large {
+        margin-top: 180px;
+    }
+
+    
+       .logo-caro {
+        margin-left: 285px;
+        margin-top: -40px;
+       }
+
+       .txt-1 {
+        font-size: 30px;
+    }
+
+    .txt-2 {
+        font-size: 16px;
+        margin-bottom: 70px;
+    }
+
+    .txt-3 {
+        font-size: 30px;
+        margin-left: 190px;
+    }
+
+    .service-1 {
+        font-size: 16px;
+    }
+
+    .service-1 h3 {
+        font-size: 16px;
+    }
+
+    .service-2 {
+        font-size: 16px;
+    }
+
+    .service-2 h3 {
+        font-size: 16px;
+    }
+
+    .service-3 {
+        font-size: 16px;
+        margin-left: 540px;
+    }
+
+    .service-3 h3 {
+        font-size: 16px;
+    }
+
+    .service-4 {
+        font-size: 16px;
+    }
+
+    .service-4 h3 {
+        font-size: 15px;
+    }
+        
+    
+}
+
+@media (max-width: 926px) and (orientation: landscape) {
+
+    .nav-link {
+        width: 70px;
+    }
+
+    #large {
+        font-size: 60px;
+        margin-top: 50px;
+        
+    }
+
+    .secondary {
+        margin-top: 70px;
+        margin-right: 70px;
+        
+    }   
+
+
+    .logo-caro {
+        width: 200px;
+        margin-top: -20px;
+        
+        
+    }
+
+    .small-text {
+        font-size: 8px;
+        margin-top: 5px;
+    }
+
+    .txt-1 {
+        margin-top: 15px;
+    }
+
+    .txt-2 {
+        line-height: 1.2;
+        margin-top: 0;
+    }
+
+    .txt-1 {
+        font-size: 28px;
+    }
+
+    .txt-2 {
+        font-size: 14px;
+        margin-top: 60px;
+    }
+
+    .txt-3 {
+        font-size: 28px;
+        margin-left: 180px;
+    }
+
+    .service-1 {
+        font-size: 14px;
+    }
+
+    .service-1 h3 {
+        font-size: 14px;
+    }
+
+    .service-2 {
+        font-size: 14px;
+    }
+
+    .service-2 h3 {
+        font-size: 14px;
+    }
+
+    .service-3 {
+        font-size: 14px;
+        margin-left: 510px;
+    }
+
+    .service-3 h3 {
+        font-size: 14px;
+    }
+
+    .service-4 {
+        font-size: 14px;
+        margin-right: 10px;
+    }
+
+    .service-4 h3 {
+        font-size: 14px;
+    }
+
+    .slider-wrapper {
+        max-width: 600px;
+    }
+
+    .slider-wrapper h2 {
+        font-size: 28px;
+    }
+
+    .slider-nav li {
+        font-size: 12px;
+    }
+
+    .form-content {
+        width: 60%;
+        
+    }
+
+    .form-content h2 {
+        font-size: 28px;
+        margin-bottom: 3px;
+    }
+
+    label {
+        font-size: 14px;
+    }
+
+    input, textarea {
+        padding: 8px 10px;
+        border: 0;
+        font-size: 10px;
+        margin-bottom: 3px;
+        border-radius: 10px;
+    }
+
+    .contact {
+        display: grid;
+        
+        grid-template-rows: 90% 10%;
+    }
+
+    .footer {
+        max-width: 100%;
+    }
+
+    .footer img {
+        width: 40px;
+    }
+}
+
+@media (max-width: 915px) and (orientation: landscape) {
+
+    .small-text {
+        margin-right: 127px;
+    }
+    
+    .slider-wrapper h2 {
+        font-size: 26px;
+    }
+    
+    input, textarea {
+        padding: 6px 10px;
+        border: 0;
+        font-size: 10px;
+        margin-bottom: 3px;
+        border-radius: 10px;
+    }
+
+    .footer img {
+        width: 35px;
+    }
+
+}
+
+            
+    
+@media (max-width: 896px) and (orientation: landscape) {
+
+    .secondary {
+        margin-right: 187px;
+    }
+
+    .small-text {
+        margin-left: 10px;
+        font-size: 8px;
+        margin: auto;
+        margin-top: 8px;
+    }
+
+    .txt-2 {
+        font-size: 12px;
+    }
+
+    .service-1 {
+        font-size: 12px;
+    }
+
+    .service-1 h3 {
+        font-size: 12px;
+    }
+
+    .service-2 {
+        font-size: 12px;
+    }
+
+    .service-2 h3 {
+        font-size: 12px;
+    }
+
+    .service-3 {
+        font-size: 12px;
+    }
+
+    .service-3 h3 {
+        font-size: 12px;
+    }
+
+    .service-4 {
+        font-size: 12px;
+    }
+
+    .service-4 h3 {
+        font-size: 12px;
+    }
+
+    .slider-wrapper h2 {
+        font-size: 26px;
+        margin-bottom: 3px;
+    }
+
+    .slider-nav li {
+        margin-top: -10px;
+    }
+
+    input, textarea {
+        padding: 6px 10px;
+        border: 0;
+        font-size: 10px;
+        margin-bottom: 3px;
+        border-radius: 10px;
+    }
+
+    .footer {
+        width: 100%;
+    }
+
+    .footer img {
+        width: 35px;
+    }
+}
+
+@media (max-width: 883px) and (orientation: landscape) {
+
+    .secondary {
+        margin-right: 180px;
+    }
+
+    .small-text {
+        margin-left: 10px;
+        font-size: 8px;
+        margin: auto;
+        margin-top: 8px;
+    }
+}
+
+@media (max-width: 854px) and (orientation: landscape) {
+
+    .secondary {
+        margin-right: 167px;
+    }
+
+    .txt-1 {
+        font-size: 26px;
+    }
+
+    .txt-2 {
+        font-size: 11px;
+        margin-top: 50px;
+    }
+
+    .txt-3 {
+        font-size: 26px;
+        margin-left: 175px;
+    }
+
+    .service-1 {
+        font-size: 11px;
+    }
+
+    .service-1 h3 {
+        font-size: 11px;
+    }
+
+    .service-2 {
+        font-size: 11px;
+    }
+
+    .service-2 h3 {
+        font-size: 11px;
+    }
+
+    .service-3 {
+        font-size: 11px;
+        margin-left: 490px;
+    }
+
+    .service-3 h3 {
+        font-size: 11px;
+    }
+
+    .service-4 {
+        font-size: 11px;
+    }
+
+    .service-4 h3 {
+        font-size: 11px;
+    }
+
+    .slider-wrapper h2 {
+        font-size: 20px;
+        margin-bottom: -10px;
+    }
+
+    .slider-nav {
+        margin-top: -5px;
+    }
+
+    .slider-nav li {
+        font-size: 10px;
+    }
+
+    input, textarea {
+        padding: 4px 10px;
+        border: 0;
+        font-size: 10px;
+        margin-bottom: 3px;
+        border-radius: 10px;
+    }
+
+    footer img {
+        width: 30px;
+    }
+}
+
+@media (max-width: 844px) and (orientation: landscape) {
+
+    .secondary {
+        margin-right: 173px;
+    }
+
+    .small-text {
+        margin-left: 10px;
+        font-size: 8px;
+        margin: auto;
+        margin-top: 8px;
+    }
+
+    .secondary {
+        margin-right: 147px;
+    }
+
+    .logo-caro {
+        margin-left: 0;
+    }
+
+    .small-text {
+        margin-top: 0;
+        margin-right: 15px;
+    }
+
+    .txt-1 {
+        margin-top: 20px;
+    }
+
+    .txt-3 {
+        margin-left: 170px;
+    }
+
+    .service-3 {
+        margin-left: 480px;
+    }
+
+
+
+    .slider-wrapper h2 {
+        font-size: 20px;
+        margin-bottom: -10px;
+    }
+
+    .slider-nav {
+        margin-top: -15px;
+    }
+
+    .slider-nav li {
+        font-size: 11px;
+    }
+
+    input, textarea {
+        padding: 4px 10px;
+        border: 0;
+        font-size: 10px;
+        margin-bottom: 3px;
+        border-radius: 10px;
+    }
+
+}
+
+   
+
+@media (max-width: 812px) and (orientation: landscape) {
+
+    .secondary {
+        margin-right: 130px;
+        margin-top: 70px;
+    }
+
+    .small-text {
+        margin-top: 5px;
+    }
+
+    .txt-2 {
+        margin-top: 55px;
+    }
+
+    .slider-wrapper h2 {
+        font-size: 20px;
+        margin-bottom: -15px;
+    }
+
+    .slider-nav {
+        margin-top: -5px;
+    }
+
+    .slider-nav li {
+        font-size: 10px;
+    }
+
+    .form-content h2 {
+        font-size: 20px;
+    }
+
+    input, textarea {
+        padding: 4px 10px;
+        border: 0;
+        font-size: 10px;
+        margin-bottom: 3px;
+        border-radius: 10px;
+    }
+}
+
+@media (max-width: 800px) and (orientation: landscape) {
+
+    .secondary {
+        margin-right: 125px;
+    }
+
+    .small-text {
+
+        font-size: 8px;
+        width: 100%;
+    }
+
+    .txt-1 {
+        font-size: 20px;
+    }
+
+    .txt-2 {
+        font-size: 10px;
+        margin-left: 20px;
+        margin-top: 50px;
+        line-height: 1.2;
+    }
+
+    .txt-3 {
+        font-size: 20px;
+    }
+
+    .service-1 {
+        font-size: 10px;
+        margin-top: 0;
+        margin-left: 50px;
+    }
+
+    .service-1 img {
+        width: 30px;
+        margin-top: 0;
+    }
+
+    .service-1 h3 {
+        font-size: 10px;
+        margin-top: 30px;
+    }
+
+    .service-1 p {
+        margin-top: 50px;
+    }
+
+    .service-2 {
+        font-size: 10px;
+        margin-top: 0;
+    }
+
+    .service-2 img {
+        width: 30px;
+    }
+
+    .service-2 h3 {
+        font-size: 10px;
+        margin-top: 30px;
+    }
+
+    .service-2 p {
+        margin-top: 50px;
+    }
+
+    .service-3 {
+        font-size: 10px;
+    }
+
+    .service-3 img {
+        width: 30px;
+    }
+
+    .service-3 h3 {
+        font-size: 10px;
+        margin-top: 30px;
+        
+    }
+
+    .service-3 p {
+        margin-top: 50px;
+    }
+
+    .service-4 {
+        font-size: 10px;
+    }
+
+    .service-4 img {
+        width: 30px;
+    }
+
+    .service-4 h3 {
+        font-size: 10px;
+        margin-top: 30px;
+    }
+
+    .service-4 p {
+        margin-top: 50px;
+    }
+
+    .slider {
+        margin-top: -20px;
+    }
+
+    .slider-nav {
+        margin-top: -20px;
+    }
+
+    
+
+    .slider-nav li {
+    
+        margin-top: 0;
+    }
+
+    .form-content h2 {
+        font-size: 16px;
+    }
+
+    input, textarea {
+        padding: 2px 10px;
+        border: 0;
+        font-size: 10px;
+        margin-bottom: 3px;
+        border-radius: 10px;
+    }
+
+}
+
+        
+           
+
+@media (max-width: 760px) and (orientation: landscape) {
+
+    #large {
+        font-size: 50px;
+    }
+
+    .secondary {
+        margin-right: 130px;
+        margin-top: 50px;
+        
+    }
+
+    .logo-caro {
+        margin-left: 150px;
+    }
+    
+
+    
+
+    .small-text {
+    
+        margin-left: 20px;
+        font-size: 8px;
+        margin: auto;
+        margin-top: 10px;
+    }
+
+    .txt-1 {
+        font-size: 20px;
+    }
+
+    .txt-2 {
+        font-size: 10px;
+        margin-left: 0;
+        line-height: 1.2;
+    }
+
+    .txt-3 {
+        font-size: 20px;
+        margin-left: 150px;
+    }
+
+    .service-1 {
+        font-size: 10px;
+        margin-top: 0;
+        margin-left: 45px;
+    }
+
+    .service-1 img {
+        width: 30px;
+    }
+
+    .service-1 h3 {
+        font-size: 10px;
+    }
+
+    .service-2 {
+        font-size: 10px;
+        margin-top: 0;
+    }
+
+    .service-2 img {
+        width: 30px;
+    }
+
+    .service-2 h3 {
+        font-size: 10px;
+    }
+
+    .service-3 {
+        font-size: 10px;
+        margin-left: 450px;
+    }
+
+    .service-3 img {
+        width: 30px;
+    }
+
+    .service-3 h3 {
+        font-size: 10px;
+    }
+
+    .service-4 {
+        font-size: 10px;
+    }
+
+    .service-4 img {
+        width: 30px;
+    }
+
+    .service-4 h3 {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 667px) and (orientation: landscape) {
+
+    .secondary {
+        margin-right: 83px;
+    }
+
+    .service-1 {
+        font-size: 8px;
+        
+    }
+
+    .service-1 h3 {
+        font-size: 9px;
+    }
+
+    .service-2 {
+        font-size: 7.5px;
+    }
+
+    .service-2 h3 {
+        font-size: 9px;
+    }
+
+    .service-3 {
+        font-size: 8px;
+    }
+
+    .service-3 h3 {
+        font-size: 9px;
+    }
+
+    .service-4 {
+        font-size: 8px;
+    }
+
+    .service-4 h3 {
+        font-size: 7px;
+    }
+}
+
+
+
+    
+
+
+
+    
+
+
+
+
+    
+
+
+
+    
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+    
+
+
+
+
+
+
+    
+
+
+
+
+
+
+    
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+    
+
+
+
+
+    
+
+
+
+
+    
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+    
+
+
+
+
+    
+
+
+
+
+    
+
+
+
+        
+    
+    
+
+
+    
+    
+        
+        
+    
+
+
+
+
+    
+        
+        
+    
+
+
+
+        
+        
+    
+
+    
+        
+        
+    
+    
+
+    
+
+    
+        
+        
+    
+
+
+
+
+    
+        
+        
+        
+    
+
+
+
+    
+    
+    
+        
+    
+        
+    
+
+
+
+    
+        
+    
+    
+    
+    
+
+    
+        
+    
+
+
+
+
+
+
+
+
+
+    
+    
